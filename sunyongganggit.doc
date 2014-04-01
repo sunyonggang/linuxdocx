@@ -1,0 +1,214 @@
+    1  git config --help
+    2  env
+    3  cat /etc/gitconfig 
+    4  pwd
+    5  mkdir gettest2
+    6  cd gettest2/
+    7  git init
+    8  echo "hello" >> hello
+    9  git add .
+   10  git commit hello -m "init hello"
+   11  git config
+   12  git config --list
+   13  git config -list
+   14  git --list
+   15  history
+   16  cd 
+   17  git config --list
+   18  history
+   19  git clone git://github.com/git/hello-world.git
+   20  git remote
+   21  cd hello-world/
+   22  git remote
+   23  git remote -v
+   24  cd ..
+   25  cd gittest1/
+   26  git remote
+   27  git remote -v
+   28  cd ../hello-world/
+   29  ls
+   30  echo "hello world" >> sun.sun
+   31  ls *.sun
+   32  git status
+   33  git add sun.sun.sun
+   34  git status
+   35  git commit -m "sunyonggang"
+   36  git commit sun.sun -m "sunyonggang"
+   37  git add sun.sun
+   38  git commit sun.sun -m "sunyonggang"
+   39  ls
+   40  echo "wawawa" >> sunyonggang.txt
+   41  ls
+   42  git status
+   43  git commit sunyonggang.txt -m "init sunyonggang.txt"
+   44  ls -al
+   45  git add sunyonggang.txt
+   46  git add sunyonggang.txt
+   47  git commit sunyonggang -m "hello sunyonggang"
+   48  git commit sunyonggang.txt -m "hello sunyonggang"
+   49  git status
+   50  git push
+   51  echo "gggggg" > sss.bin
+   52  git status
+   53  ls sss.bin 
+   54  echo "sss.bin" > .gitignore
+   55  cat .gitignore 
+   56  ls
+   57  ls *.txt
+   58  git add .
+   59  git status
+   60  ls
+   61  git commit sun.sun -m "hello"
+   62  git status
+   63  vim sunyonggang.txt 
+   64  git status
+   65  git diff
+   66  git add sunyonggang.txt
+   67  git diff
+   68  git diff --cached
+   69  git diff
+   70  cd hello-world/
+   71  git diff
+   72  git diff --cached
+   73  exit
+   74  git help git
+   75  cd hello-world/
+   76  ls
+   77  git add .
+   78  git commit . -m "all"
+   79  git status
+   80  ls
+   81  vim zz.cc
+   82  git status
+   83  git diff
+   84  git diff --cached
+   85  git add zz.cc
+   86  git commit zz.cc -m "www"
+   87  git status
+   88  vim zz.cc
+   89  git diff
+   90  git add zz.cc
+   91  git diff --cached
+   92  git commit zz.cc -m "this"
+   93  git rm zz.cc
+   94  git status
+   95  git add zz.cc
+   96  git commit zz.cc
+   97  git commit zz.cc -m "dd"
+   98  git status
+   99  ls
+  100  git rm sunyonggang.txt
+  101  git commit sunyongang.txt -m "hh"
+  102  git commit sunyonggang.txt -m "hh"
+  103  ls
+  104  cp boo.boo boo1.boo
+  105  ls
+  106  vim boo1.boo
+  107  git add boo1.boo
+  108  git commit -a -m "all"
+  109  git status
+  110  git log
+  111  git whatchange
+  112  git whatchanged
+  113  git remote
+  114  git remote -v
+  115  ls
+  116  git status
+  117  git pull
+  118  git pull origin
+  119  vim perl.pl 
+  120  git commit -a -m "perl.pl"
+  121  git status
+  122  git branch
+  123  git push origin master
+  124  git format-patch origin/master
+  125  git remote
+  126  git branch
+  127  git fetch origin
+  128  ls
+  129  cp perl.pl perl1.pl
+  130  rm perl.pl 
+  131  git status
+  132  git rm perl.pl
+  133  git status
+  134  git commit perl.pl -m "perl.pl is removed"
+  135  git status
+  136  git pull
+  137  ls
+  138  git fetch origin
+  139  ls
+  140  git branch
+  141  git branch sunyonggang
+  142  git checkout sunyonggang
+  143  ls
+  144  git status
+  145  git whatchanged
+  146  vim perl1.pl 
+  147  git status
+  148  git add perl1.pl
+  149  git commit perl1.pl -m "aaaaa"
+  150  cat perl1.pl 
+  151  git checkout master
+  152  ls
+  153  cat perl1.pl
+  154  cat test.cc
+  155  cat .gitignore 
+  156  cat python.py 
+  157  git branch
+  158  git checkout sunonggang
+  159  git checkout sunyonggang
+  160  cat python.py 
+  161  vim python.py 
+  162  cat python.py 
+  163  ls
+  164  git status
+  165  git add python.py
+  166  git commit python.py -m "hello"
+  167  git status
+  168  git checkout master
+  169  ls
+  170  cat python.py 
+  171  git diff master sunyonggang
+  172  git merge "merge master" HEAD sunyonggang
+  173  cat python.py 
+  174  cat perl1.pl 
+  175  echo "i am trying to help you" > python.py 
+  176  git commit -a -m "addallcommit"
+  177  cat python.py 
+  178  git checkout sunyonggang
+  179  echo "sunyonggang is trying " >> python.py 
+  180  cat python.py 
+  181  git checkout master
+  182  git status
+  183  git commit -a -m "hehe"
+  184  git status
+  185  git checkout master
+  186  git diff master sunyongang
+  187  git diff master sunyonggang
+  188  git status
+  189  cat python.py 
+  190  git merge "merge" HEAD sunyogang
+  191  git merge "merge" HEAD sunyoggang
+  192  git merge "merge" HEAD sunyonggang
+  193  cat python.py 
+  194  git status
+  195  git commit python.py -m "all"
+  196  vim python.py 
+  197  cat python.py 
+  198  git commit -a -m "ss"
+  199  git status
+  200  history
+  201  git tag -a Beta1 -m "make bate1"
+  202  git show ver
+  203  git show 
+  204  echo "double kill " >> python.py 
+  205  git commit -a -m "ww"
+  206  git tag -a Bate2 -m "ddd"
+  207  cat python.py 
+  208  git show Bate1
+  209  git show Beta1
+  210  git tag Beta1
+  211  git show Beta1
+  212  git show Bate2
+  213  touch sunyongganggit.doc 
+  214  history > sunyongganggit.doc 
